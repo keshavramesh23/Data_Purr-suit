@@ -1,4 +1,4 @@
-# IoMT
+# Data Purr-suit: The IoMT Cat-and-Mouse Game
 Developing Classification Models for detecting Internet of Medical Things (IoMT) attacks
 
 # Preprocessing
