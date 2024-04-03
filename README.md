@@ -5,7 +5,7 @@ Developing Classification Models for detecting Internet of Medical Things (IoMT)
 
 ## Stage 1: Retrieving and aggregating the Dataset
 
-[The dataset](https://www.unb.ca/cic/datasets/iomt-dataset-2024.html) contains the following attacks on IoMT devices, split into train and test files:
+The dataset [[1]](https://www.unb.ca/cic/datasets/iomt-dataset-2024.html) contains the following attacks on IoMT devices, split into train and test files:
 
 ![image](https://github.com/keshavramesh23/IoMT/assets/106554196/f887468e-f1e4-4914-8fd2-7756e22060cd)
 
@@ -13,7 +13,7 @@ Each of the datasets (with information about the category of attack and attack p
 
 ![image](https://github.com/keshavramesh23/IoMT/assets/106554196/82a487db-71d7-4915-a2f9-94b1c70553ba)
 
-Source: [1](https://www.preprints.org/manuscript/202402.0898/v1)
+Source: [[1]](https://www.preprints.org/manuscript/202402.0898/v1)
 
 We aim to build the best classification model to classify attacks by category, not type of attack. 
 
@@ -27,7 +27,6 @@ A preview of the aggregated dataset is below:
 
 ![image](https://github.com/keshavramesh23/IoMT/assets/106554196/8f06a411-8ebf-4808-8117-d6f57bf0e549)
 
-
 ## Stage 2: Preprocessing the combined dataset
 
 1. Data Cleaning: We checked for Null Values and found no null values. 
@@ -36,7 +35,7 @@ A preview of the aggregated dataset is below:
 
 # Benchmarks
 
-[1] tested various classifiers on their train and test sets. The following highlights the results of their models:
+[[1]](https://www.unb.ca/cic/datasets/iomt-dataset-2024.html) tested various classifiers on their train and test sets. The following highlights the results of their models:
 
 ![image](https://github.com/keshavramesh23/IoMT/assets/106554196/5083c4cf-8d97-4fd0-bff0-177262ae8f0a)
 
@@ -56,7 +55,7 @@ A summary of the results of the classifiers for all six categories of attacks ca
 
 ![image](https://github.com/keshavramesh23/IoMT/assets/106554196/f1402302-318d-4dfc-97b4-9167247c693b)
 
-Once again, Random Forest is the best-performing model, with a weighted F1-score of 99.9012% and Accuracy of 99.9020%. The classification report and the confusion matrix of this model are seen below:
+Once again, Random Forest is the best-performing model, with a weighted F1-score of 99.9012% and an Accuracy of 99.9020%. The classification report and the confusion matrix of this model are seen below:
 
 ![image](https://github.com/keshavramesh23/IoMT/assets/106554196/c9948651-3a3e-4508-93c4-bb35c00143cf)
 
